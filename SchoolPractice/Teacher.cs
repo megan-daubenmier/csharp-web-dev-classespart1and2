@@ -10,5 +10,13 @@ namespace SchoolPractice
         public string LastName { get; set; }
         public string Subject { get; set; }
         public int YearsTeaching { get; set; }
+
+        public Teacher(string firstName, string lastName, string subject, int numYears)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Subject = subject;
+            this.YearsTeaching = numYears;
+        }
     }
 }
